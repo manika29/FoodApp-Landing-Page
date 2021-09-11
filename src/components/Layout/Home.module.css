@@ -1,0 +1,120 @@
+.main {
+  animation: meals-appear 1s ease-out forwards;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5rem;
+  background-color: #8a2b06;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 10;
+}
+.footer {
+  display: flex;
+  background-color: #8a2b06;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 5rem;
+  width: 100%;
+  border-top: 1px solid white;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.header h1 {
+  padding: 0 5%;
+}
+.content {
+  margin: auto;
+}
+.main-image {
+  width: 100%;
+  height: 25rem;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.main-image img {
+  width: 110%;
+  height: 100%;
+}
+
+.button {
+  display: flex;
+  background-color: #8a2b06;
+  border-radius: 10px;
+  border: 4px double #cccccc;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  cursor: pointer;
+  margin: auto;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+.heading {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: solid;
+}
+
+.detail {
+  display: flex;
+}
+.imageclass {
+  margin-left: 20rem;
+}
+
+.textclass {
+  margin-right: 20rem;
+  margin-top: 10rem;
+  padding: 0px;
+}
+
+.p1 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #8a2b06;
+}
+
+.p2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.p3 {
+  font-size: 20px;
+}
+.imageclassnew {
+  margin-right: 10rem;
+}
+
+.textclassnew {
+  margin-left: 22rem;
+  margin-top: 9rem;
+}
+
+@keyframes meals-appear {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
