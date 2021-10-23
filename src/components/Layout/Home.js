@@ -31,7 +31,7 @@ const Home = () => {
         </div>
 
         <div className={classes.heading}>
-          <h1>How the app works</h1>
+          <h1>How the website works</h1>
         </div>
 
         <div className={classes.detail}>
@@ -50,30 +50,30 @@ const Home = () => {
         </div>
 
         <div className={classes.detail}>
-          <div className={classes.textclassnew}>
-            <p className={classes.p1}>Explore while shopping</p>
-            <p className={classes.p2}>
+          <div className={classes.textclass2}>
+            <p className={classes.p4}>Explore while shopping</p>
+            <p className={classes.p5}>
               Shop for your favourite meal at a reasonable price
             </p>
-            <p className={classes.p3}>
+            <p className={classes.p6}>
               Filter your food and drinks according to your taste
             </p>
           </div>
-          <div className={classes.imageclassnew}>
+          <div className={classes.imageclass2}>
             <img src={shopImage} />
           </div>
         </div>
 
         <div className={classes.detail}>
-          <div className={classes.imageclass}>
+          <div className={classes.imageclass3}>
             <img src={paymentImage} />
           </div>
-          <div className={classes.textclass}>
-            <p className={classes.p1}>Checkout</p>
-            <p className={classes.p2}>
+          <div className={classes.textclass3}>
+            <p className={classes.p7}>Checkout</p>
+            <p className={classes.p8}>
               When you're done,check out and get it delivered.
             </p>
-            <p className={classes.p3}>
+            <p className={classes.p9}>
               When done,check out and get it delivered through different payment
               methods with ease.
             </p>
